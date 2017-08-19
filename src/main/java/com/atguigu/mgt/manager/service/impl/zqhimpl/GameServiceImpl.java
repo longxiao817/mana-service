@@ -21,6 +21,7 @@ public class GameServiceImpl implements gameService {
     @Override
     public List<TGames> getAllByCondition(TGamesExample example) {
         
+        
         return gamesMapper.selectByExample(example);
     }
 

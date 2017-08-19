@@ -9,6 +9,7 @@ public interface MessageService {
 
     List<TReply> getAllReply(String searchCondition,String status);
 
+    
     boolean delete(Integer id);
 
 }

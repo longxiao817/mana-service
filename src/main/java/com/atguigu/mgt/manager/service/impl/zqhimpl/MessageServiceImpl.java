@@ -23,6 +23,7 @@ public class MessageServiceImpl implements MessageService {
     public List<TReply> getAllReply(String searchCondition,String status) {
         System.out.println("service里的"+ searchCondition);
         System.out.println("service里的"+ status);
+        
         TReplyExample example = new TReplyExample();
         Criteria criteria = example.createCriteria();
         if(!searchCondition.trim().equals("")){

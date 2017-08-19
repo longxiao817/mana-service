@@ -17,6 +17,7 @@ public interface gameService {
 
     public List<TGames> getAll();
 
+    
     public boolean changeStatus(Integer id, String status);
 
     public boolean checkStatus(Integer id);
